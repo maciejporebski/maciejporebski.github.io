@@ -1,0 +1,90 @@
+title: Maciej Porebski
+logo: "assets/images/logo.svg"
+email: macporebski@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Maciej Porebski's Azure blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: porebskimaciej
+github_username:  maciejporebski
+
+breadcrumbs: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: air
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+repository: maciejporebski/maciejporebski.github.io-comments
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "maciejporebski/maciejporebski.github.io-comments"
+    category_name        : "Announcements"
+    category_id          : "DIC_kwDOG0tsvc4CBGry"
+    discussion_term      : "pathname"
+    reactions_enabled    : 1
+    theme                : "light"
+
+author:
+  name     : "Maciej Porebski"
+  avatar   : "/assets/images/profile.jpg"
+  bio      : "Hi! I'm Maciej, a DevOps Engineer, working with Azure. I focus on PaaS services and security."
+  location : "UK"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/porebskimaciej"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maciejporebski"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/maciej-porebski/"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
+      show_date: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: false
+      comments: true
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/porebskimaciej"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maciejporebski"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/maciej-porebski-8a090b10a/"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

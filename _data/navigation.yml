@@ -1,0 +1,5 @@
+main:
+  - title: "Articles"
+    url: /articles
+  - title: "Search"
+    url: /search
