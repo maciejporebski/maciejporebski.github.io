@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Use the Azure Management Batch API to Send Multiple Requests to management.azure.com"
-date:   2023-05-04 22:00:00 +0000
+date:   2023-05-04 20:00:00 +0000
 permalink: /azure-management-batch-api
 ---
 
