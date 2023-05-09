@@ -24,9 +24,9 @@ repository: maciejporebski/maciejporebski.github.io-comments
 comments:
   provider: "giscus"
   giscus:
-    repo_id              : "maciejporebski/maciejporebski.github.io-comments"
-    category_name        : "Announcements"
-    category_id          : "DIC_kwDOG0tsvc4CBGry"
+    repo_id              : "R_kgDOIQLowA"
+    category_name        : "General"
+    category_id          : "DIC_kwDOIQLowM4CWYP8"
     discussion_term      : "pathname"
     reactions_enabled    : 1
     theme                : "light"
