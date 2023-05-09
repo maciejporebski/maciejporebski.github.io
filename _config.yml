@@ -19,17 +19,19 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-repository: maciejporebski/maciejporebski.github.io-comments
+repository: maciejporebski/maciejporebski.github.io
 
 comments:
   provider: "giscus"
   giscus:
+    repo                 : "maciejporebski/maciejporebski.github.io"
     repo_id              : "R_kgDOIQLowA"
     category_name        : "General"
     category_id          : "DIC_kwDOIQLowM4CWYP8"
     discussion_term      : "pathname"
     reactions_enabled    : 1
     theme                : "light"
+    crossorigin:         "anonymous"
 
 author:
   name     : "Maciej Porebski"
