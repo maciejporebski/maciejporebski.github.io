@@ -33,6 +33,12 @@ comments:
     theme                : "light"
     crossorigin:         "anonymous"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-GG85LWSMTZ"
+    anonymize_ip: false
+
 author:
   name     : "Maciej Porebski"
   avatar   : "/assets/images/profile.jpg"
