@@ -4,7 +4,7 @@ email: macporebski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Maciej Porebski's Azure blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maciejporebski.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: porebskimaciej
 github_username:  maciejporebski
 
@@ -18,6 +18,7 @@ minimal_mistakes_skin: air
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-sitemap
 
 repository: maciejporebski/maciejporebski.github.io
 
