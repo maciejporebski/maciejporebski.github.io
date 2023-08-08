@@ -19,7 +19,7 @@ GEM
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
-    commonmarker (0.23.9)
+    commonmarker (0.23.10)
     concurrent-ruby (1.2.2)
     dnsruby (1.70.0)
       simpleidn (~> 0.2.1)
@@ -34,6 +34,7 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
+    ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
@@ -230,6 +231,8 @@ GEM
     minitest (5.18.0)
     nokogiri (1.14.3-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.14.3-x86_64-linux)
+      racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
@@ -266,14 +269,15 @@ GEM
       tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.8.2)
     unf_ext (0.0.8.2-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
     verbal_expressions (0.1.5)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   github-pages
@@ -285,7 +289,6 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   tzinfo-data
-  wdm (~> 0.1.0)
   webrick (~> 1.8)
 
 BUNDLED WITH
