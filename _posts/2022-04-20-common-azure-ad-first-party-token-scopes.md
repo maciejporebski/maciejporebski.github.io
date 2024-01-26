@@ -3,6 +3,7 @@ layout: single
 title:  "Common Azure AD First-Party Token Scopes"
 date:   2022-04-20 17:26:00 +0000
 permalink: /common-azure-ad-first-party-token-scopes
+classes: wide
 ---
 
 | Display Name | Service Principal Names |
