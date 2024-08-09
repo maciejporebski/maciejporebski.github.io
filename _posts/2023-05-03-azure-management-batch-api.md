@@ -5,7 +5,10 @@ date:   2023-05-04 20:00:00 +0000
 permalink: /azure-management-batch-api
 ---
 
-If you would like to send several requests to the Azure Management API (management.azure.com), rather than managing queueing these requests yourself you can utilise the /batch endpoint to send up to 500 requests in a single HTTP request and let Azure handle the requests for you. The batch endpoint is commonly used by the Azure portal to speed up processing multiple requests, as sending all requests and receiving a single response reduces the overhead of making individual HTTP requests.
+This endpoint is not documented by Microsoft, and therefore, likely subject to unannounced breaking changes, or withdrawal. It is not recommended to rely on this endpoint for any Production implementations.
+{: .notice--warning}
+
+If you would like to send several requests to the Azure Management API (management.azure.com), rather than managing queueing these requests yourself you can utilise the batch endpoint https://management.azure.com/batch (utilised by the Azure Portal) to send up to 500 requests (20 for requests with a body) in a single HTTP request and let Azure handle the requests for you.
 
 # Request
 
@@ -24,7 +27,7 @@ POST https://management.azure.com/batch?api-version=2022-12-01
 
 | Name     | Type                                 | Description                                    |
 | -------- | ------------------------------------ | ---------------------------------------------- |
-| requests | [Request Object []](#request-object) | List of requests, allowing up to 500 requests. |
+| requests | [Request Object []](#request-object) | List of requests, allowing up to 500 requests (no body) or 20 requests (with body). |
 
 ### Request Object
 
