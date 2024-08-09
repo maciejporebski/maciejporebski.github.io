@@ -42,13 +42,8 @@ analytics:
 
 author:
   name     : "Maciej Porebski"
-  avatar   : "/assets/images/profile.jpg"
-  bio      : "Hi! I'm Maciej, a DevOps Engineer, working with Azure. I focus on PaaS services and security."
-  location : "UK"
+  bio      : "Cloud engineering, architecture, security, governance, infrastructure as code, CI/CD..."
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/porebskimaciej"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maciejporebski"
